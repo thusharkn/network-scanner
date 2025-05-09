@@ -1,0 +1,7 @@
+splunk:
+  url: "http://localhost:8088/services/collector/event"
+  token: "token_confidential"
+scan:
+  targets:
+    - "192.168.0/24"
+  ports: "22,80,443,8080"
